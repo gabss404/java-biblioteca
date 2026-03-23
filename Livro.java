@@ -16,12 +16,24 @@ public class Livro {
     public int getId() { return id; }
     public boolean isEmprestado() { return emprestado; }
 
-    public void emprestar() { this.emprestado = true; }
-    public void devolver() { this.emprestado = false; }
+    public boolean emprestar() {
+        if (emprestado) return false;
+        this.emprestado = true;
+        return true;
+    }
+
+    public boolean devolver() {
+        if (!emprestado) return false;
+        this.emprestado = false;
+        return true;
+    }
 
     @Override
     public String toString() {
         String status = emprestado ? "Emprestado" : "Disponível";
-        return "ID: " + id + ", Título: " + titulo + ", Autor: " + autor + ", Status: " + status;
+        return String.format(
+            "ID: %d | Título: %s | Autor: %s | Status: %s",
+            id, titulo, autor, status
+        );
     }
 }
