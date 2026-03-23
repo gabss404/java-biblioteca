@@ -1,6 +1,6 @@
 public class Usuario {
-    private String nome;
-    private int id;
+    private final String nome;
+    private final int id;
 
     public Usuario(int id, String nome) {
         this.id = id;
@@ -12,6 +12,6 @@ public class Usuario {
 
     @Override
     public String toString() {
-        return "ID: " + id + ", Nome: " + nome;
+        return String.format("ID: %d | Nome: %s", id, nome);
     }
 }
