@@ -1,36 +1,32 @@
-# Library Management System
+# 📚 Sistema de Gerenciamento de Biblioteca
 
-Sistema de gerenciamento de biblioteca desenvolvido em Java, com foco em aplicar conceitos de orientação a objetos.
-
-
----
-
-## Funcionalidades
-
-- Cadastrar livros (ID, título e autor)
-- Cadastrar usuários (ID e nome)
-- Empréstimo de livros
-- Devolução de livros
-- Listar todos os livros e seus status (disponível/emprestado)
+Sistema de gerenciamento de biblioteca desenvolvido em **Java**, aplicando **conceitos avançados de Orientação a Objetos (POO)**. O projeto simula o funcionamento de uma biblioteca real, permitindo cadastro de usuários, livros e controle de empréstimos.
 
 ---
 
-## Tecnologias
+## ⚡ Funcionalidades principais
 
-- Java
-- Aplicação via console
-- Progrãmação orientada a objetos (POO)
+- 📖 **Gerenciamento de livros:** cadastro de livros com ID, título e autor.  
+- 👤 **Cadastro de usuários:** registro de usuários com ID e nome.  
+- 🏷️ **Empréstimos e devoluções:** controle do status de cada livro (disponível/emprestado).  
+- 📃 **Listagem completa:** consulta rápida de todos os livros e seu status atual.  
+
+💡 Possível melhoria: implementar histórico de empréstimos e notificações de atraso, aproximando o projeto de uma aplicação real de mercado.
 
 ---
 
-## Como rodar
+## 🛠 Tecnologias utilizadas
 
-1. Baixe ou clone o repositório:
-   git clone https://github.com/gabss404/biblioteca.git
-   
-2. Abra o projeto em uma IDE (IntelliJ ou Eclipse)
+- **Linguagem:** Java  
+- **Paradigma:** Programação Orientada a Objetos (POO)  
+- **Execução:** Aplicação via console (CLI)  
 
-3. Execute a classe principal
-   
-   
+💡 Possível melhoria: transformar em aplicação gráfica (JavaFX) ou web (Spring Boot + Thymeleaf/React) para mostrar habilidades full-stack.
 
+---
+
+## 🚀 Como rodar
+
+1. Clone o repositório:  
+```bash
+git clone https://github.com/gabss404/biblioteca.git 
